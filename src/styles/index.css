@@ -28,6 +28,10 @@ body {
     gap: 2.75rem;
 }
 
+.header__container > h1 > span {
+    color: var(--brand-2);
+}
+
 .section2__container {
     background-color: var(--gray-0);
 
@@ -139,6 +143,9 @@ body {
     padding: 80px 52px;
     width: 446px;
     height: 545px;
+}
+.div__item > p{
+    color: var(--gray-6);
 }
 
 .div__item > img {
