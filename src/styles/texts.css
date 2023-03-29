@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.title-1 {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-title-1);    
+    font-weight: var(--fw-semi-bold);
+    line-height: var(--lh-title);
+    color: var(--gray-6);
+}
+
+.title-2 {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-title-2);    
+    font-weight: var(--fw-semi-bold);
+    line-height: var(--lh-title);
+    color: var(--gray-4);
+}
+
+.title-3 {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-title-3);    
+    font-weight: var(--fw-semi-bold);
+    line-height: var(--lh-title);
+    color: var(--gray-6);
+}
+
+.text-1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-text-1);
+    line-height: var(--lh-text);
+    color: var(--gray-5);
+}
+
+.text-2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(---fw-regular);
+    font-size: var(--fs-text-2);
+    line-height: var(--lh-text);
+    color: var(--gray-3);
+}
+
+.text-3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-text-3);
+    line-height: var(--lh-text);
+    color: var(--gray-3);
+}
+

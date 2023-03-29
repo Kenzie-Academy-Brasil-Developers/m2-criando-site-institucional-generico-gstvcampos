@@ -1,0 +1,36 @@
+:root {
+    /* Text Sizes */
+    --fs-title-1: 3.25rem;
+    --fs-title-2: 2.5rem;
+    --fs-title-3: 2rem;
+    --fs-text-1: 1.75rem;
+    --fs-text-2: 1.25rem;
+    --fs-text-3: 1.125rem;
+
+    --fs-button: 0.875rem;
+    
+    /* Text Weight */
+    --fw-semi-bold: 600;
+    --fw-medium: 500;
+    --fw-regular: 400;
+
+    /* Line-Height */
+    --lh-title: 160%;   
+    --lh-text: 150%;
+
+    /* Brand Colors */
+    --brand-1: #4C6EF5;
+    --brand-2: #364fc7;
+
+    /* Grey Colors */
+    --gray-0: #191C1F;
+    --gray-1: #212529;
+    --gray-2: #343A40;
+    --gray-3: #ADB5BD;
+    --gray-4: #CED4DA;
+    --gray-5: #F8F9FA;
+    --gray-6: #EDF2FF;
+
+    /* padding */
+    --distance-1: 20px;
+}

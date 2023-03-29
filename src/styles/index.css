@@ -1,0 +1,215 @@
+body {
+    background-color: var(--gray-1);
+    padding: 0 3%;
+}
+
+.navigation__container {
+    color: var(--gray-5);
+    background-color: var(--gray-0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+
+    padding: 1rem 10rem;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 15rem;
+    gap: 2.75rem;
+}
+
+.section2__container {
+    background-color: var(--gray-0);
+
+    display: grid; 
+    align-items: center;    
+    grid-template-columns: 1fr 1fr;    
+    
+    margin: 0 -3%;
+    padding: 6.25rem 10rem;
+    gap: 1.25rem;
+}
+
+.section3__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 6.25rem;
+}
+
+.section3__item--primary {
+    display: flex;
+    flex-direction: column;
+
+    width: 473px;
+    height: 277px;
+    gap: 33px;
+}
+
+.section3__item--primary > button {
+    width: 245px;
+}
+
+.section3__item--secondary {
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+    width: 614px;
+}
+.section3__item--secondary > span{
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+.section3__item--secondary > span > div {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+}
+
+.section3__item--secondary > span > div > button {
+    background-color: var(--gray-1);
+    border: none;
+    cursor: pointer;
+}
+
+.section4__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    padding: 6.25rem;
+}
+
+.section4__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.list__container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+}
+
+.list__item {
+    height: 135px;
+}
+
+.list__item > div {
+    display: flex;
+
+    gap: 70px;
+    height: 135px;
+    width: 746px;
+    margin-bottom: 100px;
+}
+
+.list__item > div > span {
+    box-sizing: border-box;
+
+    width: 200px;
+}
+.list__item > div > p {
+    box-sizing: border-box;
+
+    width: 500px;
+}
+
+.div__item {
+    background-color: var(--brand-1);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 35px;
+    padding: 80px 52px;
+    width: 446px;
+    height: 545px;
+}
+
+.div__item > img {
+    width: 118px;
+}
+
+.footer__container {
+    background-color: var(--gray-0);    
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 -3%;
+    padding: 1rem;
+}
+
+#modal__container {
+    background-color: var(--gray-1);
+    color: var(--gray-5);
+    border: 2px solid var(--brand-1);
+
+    width: 470px;
+}
+
+#modal__container::backdrop {
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.modal__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.modal__header > button {
+    background-color: var(--gray-2);
+    color: var(--gray-4);
+
+    font-size: var(--fs-text-3);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal__main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 20px 20px 20px;
+}
+
+input {
+    font-size: var(--fs-text-2);
+    background-color: var(--gray-2);
+    outline: none;
+
+    border: 3px solid var(--gray-2);
+    padding: 19.5px 32px;
+}
+
+input::placeholder {
+    color: var(--gray-3);
+}
+
+input:focus {
+    background-color: var(--gray-1);
+    border: 3px solid var(--brand-1);
+}
+
+.hide {
+    display: none;
+}

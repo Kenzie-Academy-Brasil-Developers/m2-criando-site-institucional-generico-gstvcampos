@@ -1,0 +1,23 @@
+.primary__button {
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-button);
+    line-height: var(--lh-text);
+    align-items: center;
+    padding: 19.5px 32px;
+    cursor: pointer;
+
+    color: var(--gray-5);
+    background-color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+}
+
+.primary__button--gray {
+    background-color: var(--gray-0);
+    color: var(--gray-5);
+    border: 1px solid var(--gray-5);
+}
+
+button:hover {
+    background-color: var(--brand-2);
+    border: 1px solid var(--brand-2);
+}
